@@ -6,7 +6,7 @@ TherapyFlex necesita organizar la información de sus pacientes, la programació
 
 El objetivo es relacionar la información de cada paciente con sus citas, sesiones, archivos clínicos, pagos y facturas, e identificar a los usuarios que registran información. También se contempla un módulo independiente de reseñas de Google.
 
-Este documento describe los archivos disponibles en «Proyecto Modelado Jorge». La referencia para los tipos de datos, la obligatoriedad y las restricciones implementadas es el script `Modelo Físico/scrip_creacion_db_tablas.sql`, que define la base `therapyflex_crm`. No se ha verificado una instancia de base de datos en ejecución.
+Este documento describe los archivos disponibles en «Proyecto Modelado». La referencia para los tipos de datos, la obligatoriedad y las restricciones implementadas es el script `DDL/create_database_Pdan8_Academico.sql`, que define la base `Pdan8_Academico`. 
 
 Los diagramas lógicos conservan nombres y tipos del origen PostgreSQL/Supabase. Su correspondencia con SQL Server y las diferencias entre diagramas se explican en las secciones 6 y 9.
 
@@ -25,8 +25,6 @@ El modelo comprende nueve entidades:
 | Factura | `dbo.invoices` | Cabecera de facturación por paciente. |
 | Detalle de factura | `dbo.invoice_items` | Conceptos facturados, cantidades e importes. |
 | Reseña de Google | `dbo.google_reviews` | Valoraciones, comentarios y respuestas externas. |
-
-No se implementan tablas independientes de fisioterapeutas, paquetes o servicios. Tampoco se implementan autenticación, roles, almacenamiento del contenido de archivos ni sincronización automática con Google. El modelo físico no migra usuarios o datos desde Supabase ni cambia la conexión de una aplicación existente.
 
 ## 3. Información de las entidades
 
@@ -198,18 +196,16 @@ Las consultas deben respetar las relaciones existentes. El modelo no permite atr
 
 ## 8. Archivos de la entrega
 
-Los siguientes enlaces apuntan a archivos existentes dentro de «Proyecto Modelado Jorge»:
+Los siguientes enlaces apuntan a archivos existentes dentro de «Proyecto Modelado»:
 
 | Nivel o recurso | Archivo |
 |---|---|
 | Modelo ER en PNG | [Diagrama ER - Centro-TerapiaFisica.png](../Modelo%20Entidad%20Relacion/Diagrama%20ER%20-%20Centro-TerapiaFisica.png) |
-| Modelo ER unificado en SVG | [diagrama_final-completo.svg](../diagrama_final-completo.svg) |
-| Representación ER anterior, SVG sin extensión | [Entidad Relacion](../Entidad%20Relacion) |
+| Modelo ER unificado en SVG | [diagrama_final-completo.svg](../Modelo%20Entidad%20Relacion/diagrama_final-completo.svg) |
 | Modelo lógico | [modelo-logico.png](../Modelo%20L%C3%B3gico/modelo-logico.png) |
 | Modelo lógico con títulos en español | [modelo-logico-centro-terapia.png](../Modelo%20L%C3%B3gico/modelo-logico-centro-terapia.png) |
 | Diagrama físico | [modelo-fisico.png](../Modelo%20F%C3%ADsico/modelo-fisico.png) |
-| Script de creación de base y tablas | [scrip_creacion_db_tablas.sql](../Modelo%20F%C3%ADsico/scrip_creacion_db_tablas.sql) |
-| Nota sobre niveles de modelado | [diagramas.txt](../diagramas.txt) |
+| Script de creación de base y tablas | [scrip_creacion_db_tablas.sql](../DDL/create_database_Pdan8_Academico.sql) |
 
 ## 9. Diferencias pendientes entre los diagramas y el modelo físico
 

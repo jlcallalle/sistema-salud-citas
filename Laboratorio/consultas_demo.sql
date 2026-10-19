@@ -23,7 +23,7 @@ Definiciones para interpretar los resultados:
 - El archivo solo lee datos. No crea tablas ni carga datos de prueba.
 */
 
-USE [therapyflex_academico_demo];
+USE [Pdan8_Academico];
 GO
 SET NOCOUNT ON;
 
@@ -31,8 +31,8 @@ SET NOCOUNT ON;
 DECLARE @FechaDesde date = NULL; -- Ejemplo: '2026-01-01'
 DECLARE @FechaHasta date = NULL; -- Ejemplo: '2026-12-31'
 
-IF DB_NAME() <> N'therapyflex_academico_demo'
-    THROW 50001, N'Seleccione la base therapyflex_academico_demo antes de ejecutar.', 1;
+IF DB_NAME() <> N'Pdan8_Academico'
+    THROW 50001, N'Seleccione la base Pdan8_Academico antes de ejecutar.', 1;
 
 IF @FechaDesde > @FechaHasta
     THROW 50002, N'FechaDesde no puede ser posterior a FechaHasta.', 1;
@@ -254,7 +254,7 @@ Pasos:
 4. Ordenar de mayor a menor y mostrar TOP (5).
 */
 
-USE [therapyflex_academico_demo];
+USE [Pdan8_Academico];
 GO
 
 SELECT TOP (5)
@@ -289,7 +289,7 @@ El primer resultado muestra todas las ubicaciones de mayor a menor.
 El segundo indica cuántos pacientes quedaron sin ubicación utilizable.
 */
 
-USE [therapyflex_academico_demo];
+USE [Pdan8_Academico];
 GO
 
 SELECT
@@ -322,7 +322,7 @@ El valor 0 es el predeterminado del modelo: no identifica un canal
 específico como presencial, referido o redes sociales.
 */
 
-USE [therapyflex_academico_demo];
+USE [Pdan8_Academico];
 GO
 
 SELECT
