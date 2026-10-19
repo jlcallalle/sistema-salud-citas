@@ -11,12 +11,10 @@ Sistema de gestión de pacientes, citas, sesiones clínicas, archivos, pagos, fa
 | [Caso propuesto](Caso%20Propuesto/README.md) | Alcance, entidades, cardinalidades, reglas y diferencias entre modelos |
 | [Diccionario](diccionario.md) | Todas las columnas, tipos, nulabilidad y valores predeterminados del servidor |
 | Modelo Entidad Relacion / Modelo Lógico / Modelo Físico | Diagramas originales de TherapyFlex; consultar diferencias documentadas |
-| [DDL](DDL/create_database.sql) | Instalación del modelo original: 9 tablas, 12 FK, 17 índices explícitos |
-| [DDL de demostración](DDL/create_database_demo.sql) | Mismo esquema en therapyflex_academico_demo |
-| [DML](DML/insert_data.sql) | Datos ficticios, exclusivamente en la base de demostración vacía |
+| [DDL](DDL/create_database_Pdan8_Academico.sql) | Instalación del modelo original: 9 tablas, 12 FK, 17 índices explícitos |
+| [DML](DML/insert_data_Pdan8_Academico.sql) | Datos ficticios, exclusivamente en la base de demostración vacía |
 | Consultas de Negocio | Once consultas individuales y un consolidado de ocho consultas |
 | [Laboratorio](laboratorio/README.md) | Función, procedimiento, vista y ejercicios adaptados |
-| [Validación y pendientes](validacion/PENDIENTES.md) | Evidencia de servidor, limitaciones y pasos de cierre |
 
 ## Ejecución
 
