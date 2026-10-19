@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2050" viewBox="0 0 2500 2050" role="img" aria-label="Diagrama unificado entidad relación TherapyFlex, notación Chen"><style>text{font-family:Arial,sans-serif;stroke:none;fill:#172033}path{stroke:#64748b;stroke-width:2;fill:none}rect,polygon,ellipse{fill:white;stroke:#334155;stroke-width:2}</style><rect x="0" y="0" width="2500" height="2050" style="fill:#fff;stroke:none"/>
+<text x="1250" y="55" text-anchor="middle" dominant-baseline="middle" font-size="38" font-weight="700">TherapyFlex · Modelo entidad–relación unificado</text>
+<text x="1250" y="103" text-anchor="middle" dominant-baseline="middle" font-size="22" >Notación Chen · Una sola representación por entidad · Cardinalidad máxima 1:N · Toda cita requiere un paciente · Autoría de pacientes propuesta</text>
+<g aria-label="Relación propuesta: un usuario registra cero o muchos pacientes; cada paciente tiene cero o un usuario creador">
+<path d="M1125 760H1455M1665 760H1995" style="stroke:#0369a1;stroke-width:3;stroke-dasharray:10 6"/>
+<polygon points="1455,760 1560,712 1665,760 1560,808" style="stroke:#0369a1;stroke-width:3;fill:#f0f9ff"/>
+<text x="1560" y="760" text-anchor="middle" dominant-baseline="middle" font-size="24">Registra</text>
+<text x="1180" y="738" text-anchor="middle" font-size="24">N</text>
+<text x="1935" y="738" text-anchor="middle" font-size="24">1</text>
+<text x="1560" y="686" text-anchor="middle" font-size="20">1:N · Propuesta</text>
+<text x="1560" y="844" text-anchor="middle" font-size="19">patients.created_by → auth.users.id</text>
+</g>
+<path d="M575 350L1425 350"/>
+<polygon points="895,350 1000,302 1105,350 1000,398"/>
+<text x="1000" y="350" text-anchor="middle" dominant-baseline="middle" font-size="24" >Asocia</text>
+<text x="701.5" y="330" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1330.5" y="330" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M935 725L515 385"/>
+<polygon points="620,555 725,507 830,555 725,603"/>
+<text x="725" y="555" text-anchor="middle" dominant-baseline="middle" font-size="24" >Agenda</text>
+<text x="896.4" y="660.8" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="585.6" y="409.2" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M1065 725L1485 385"/>
+<polygon points="1170,555 1275,507 1380,555 1275,603"/>
+<text x="1275" y="555" text-anchor="middle" dominant-baseline="middle" font-size="24" >Realiza</text>
+<text x="1135.6" y="660.8" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1446.4" y="409.2" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M910 795L540 1085"/>
+<polygon points="620,940 725,892 830,940 725,988"/>
+<text x="725" y="940" text-anchor="middle" dominant-baseline="middle" font-size="24" >Recibe</text>
+<text x="877.9" y="812.7" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="604.1" y="1027.3" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M1090 795L1460 1085"/>
+<polygon points="1170,940 1275,892 1380,940 1275,988"/>
+<text x="1275" y="940" text-anchor="middle" dominant-baseline="middle" font-size="24" >Tiene</text>
+<text x="1154.1" y="812.7" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1427.9" y="1027.3" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M450 1155L450 1535"/>
+<polygon points="345,1345 450,1297 555,1345 450,1393"/>
+<text x="450" y="1345" text-anchor="middle" dominant-baseline="middle" font-size="24" >Adjunta</text>
+<text x="466" y="1184.4" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="466" y="1465.6" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M1550 1155L1550 1535"/>
+<polygon points="1445,1345 1550,1297 1655,1345 1550,1393"/>
+<text x="1550" y="1345" text-anchor="middle" dominant-baseline="middle" font-size="24" >Contiene</text>
+<text x="1566" y="1184.4" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1566" y="1465.6" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M1000 795V1570H575"/>
+<polygon points="895,1320 1000,1272 1105,1320 1000,1368"/>
+<text x="1000" y="1320" text-anchor="middle" dominant-baseline="middle" font-size="24" >Posee</text>
+<text x="1025" y="880" text-anchor="middle" dominant-baseline="middle" font-size="24" >1</text>
+<text x="620" y="1548" text-anchor="middle" dominant-baseline="middle" font-size="24" >N</text>
+<path d="M1995 725L1630 385"/>
+<polygon points="1707.5,555 1812.5,507 1917.5,555 1812.5,603"/>
+<text x="1812.5" y="555" text-anchor="middle" dominant-baseline="middle" font-size="24" >Registra</text>
+<text x="1963.55" y="660.8" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1693.45" y="409.2" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M1995 795L1630 1085"/>
+<polygon points="1707.5,940 1812.5,892 1917.5,940 1812.5,988"/>
+<text x="1812.5" y="940" text-anchor="middle" dominant-baseline="middle" font-size="24" >Emite</text>
+<text x="1963.55" y="812.7" text-anchor="middle" dominant-baseline="middle" font-size="22" >1</text>
+<text x="1693.45" y="1027.3" text-anchor="middle" dominant-baseline="middle" font-size="22" >N</text>
+<path d="M2245 760H2390V170H130V1120H325"/>
+<polygon points="25,760 130,712 235,760 130,808"/>
+<text x="130" y="760" text-anchor="middle" dominant-baseline="middle" font-size="24" >Registra</text>
+<text x="2320" y="738" text-anchor="middle" dominant-baseline="middle" font-size="24" >1</text>
+<text x="275" y="1098" text-anchor="middle" dominant-baseline="middle" font-size="24" >N</text>
+<rect x="875" y="725" width="250" height="70"/>
+<text x="1000" y="754" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">PACIENTE</text>
+<text x="1000" y="780" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">patients</text>
+<path d="M875 760L740 760"/>
+<ellipse cx="665" cy="760" rx="80" ry="32"/>
+<text x="665" y="760" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M1000 725L1000 590"/>
+<ellipse cx="1000" cy="558" rx="88" ry="32"/>
+<text x="1000" y="558" text-anchor="middle" dominant-baseline="middle" font-size="20" >Nombre</text>
+<path d="M1000 725L1000 692"/>
+<ellipse cx="1000" cy="660" rx="80" ry="32"/>
+<text x="1000" y="660" text-anchor="middle" dominant-baseline="middle" font-size="20" >DNI</text>
+<rect x="325" y="315" width="250" height="70"/>
+<text x="450" y="344" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">CITA</text>
+<text x="450" y="370" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">appointments</text>
+<path d="M385 315L270 215"/>
+<ellipse cx="270" cy="215" rx="88" ry="32"/>
+<text x="270" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M450 315L450 215"/>
+<ellipse cx="450" cy="215" rx="88" ry="32"/>
+<text x="450" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" >Fecha</text>
+<path d="M515 315L630 215"/>
+<ellipse cx="630" cy="215" rx="88" ry="32"/>
+<text x="630" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" >Estado</text>
+<rect x="1425" y="315" width="250" height="70"/>
+<text x="1550" y="344" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">PAGO</text>
+<text x="1550" y="370" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">payments</text>
+<path d="M1485 315L1370 215"/>
+<ellipse cx="1370" cy="215" rx="88" ry="32"/>
+<text x="1370" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M1550 315L1550 215"/>
+<ellipse cx="1550" cy="215" rx="88" ry="32"/>
+<text x="1550" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" >Importe</text>
+<path d="M1615 315L1730 215"/>
+<ellipse cx="1730" cy="215" rx="88" ry="32"/>
+<text x="1730" y="215" text-anchor="middle" dominant-baseline="middle" font-size="20" >Método</text>
+<rect x="325" y="1085" width="250" height="70"/>
+<text x="450" y="1114" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">SESIÓN</text>
+<text x="450" y="1140" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">sessions</text>
+<path d="M385 1085L270 985"/>
+<ellipse cx="270" cy="985" rx="88" ry="32"/>
+<text x="270" y="985" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M450 1085L450 985"/>
+<ellipse cx="450" cy="985" rx="88" ry="32"/>
+<text x="450" y="985" text-anchor="middle" dominant-baseline="middle" font-size="20" >Tratamiento</text>
+<path d="M500 1085L550 985"/>
+<ellipse cx="550" cy="985" rx="88" ry="32"/>
+<text x="550" y="985" text-anchor="middle" dominant-baseline="middle" font-size="20" >Evolución</text>
+<rect x="1425" y="1085" width="250" height="70"/>
+<text x="1550" y="1114" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">FACTURA</text>
+<text x="1550" y="1140" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">invoices</text>
+<path d="M1425 1120L1270 1190"/>
+<ellipse cx="1270" cy="1190" rx="88" ry="32"/>
+<text x="1270" y="1190" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M1550 1085L1550 985"/>
+<ellipse cx="1550" cy="985" rx="88" ry="32"/>
+<text x="1550" y="985" text-anchor="middle" dominant-baseline="middle" font-size="20" >Número</text>
+<path d="M1675 1120L1830 1190"/>
+<ellipse cx="1830" cy="1190" rx="88" ry="32"/>
+<text x="1830" y="1190" text-anchor="middle" dominant-baseline="middle" font-size="20" >Total</text>
+<rect x="325" y="1535" width="250" height="70"/>
+<text x="450" y="1564" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">ARCHIVO CLÍNICO</text>
+<text x="450" y="1590" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">session_files</text>
+<path d="M385 1605L270 1705"/>
+<ellipse cx="270" cy="1705" rx="88" ry="32"/>
+<text x="270" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M450 1605L450 1705"/>
+<ellipse cx="450" cy="1705" rx="88" ry="32"/>
+<text x="450" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Ruta</text>
+<path d="M515 1605L630 1705"/>
+<ellipse cx="630" cy="1705" rx="88" ry="32"/>
+<text x="630" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Tipo</text>
+<rect x="1425" y="1535" width="250" height="70"/>
+<text x="1550" y="1564" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">DETALLE FACTURA</text>
+<text x="1550" y="1590" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">invoice_items</text>
+<path d="M1485 1605L1370 1705"/>
+<ellipse cx="1370" cy="1705" rx="88" ry="32"/>
+<text x="1370" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M1550 1605L1550 1705"/>
+<ellipse cx="1550" cy="1705" rx="88" ry="32"/>
+<text x="1550" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Cantidad</text>
+<path d="M1615 1605L1730 1705"/>
+<ellipse cx="1730" cy="1705" rx="88" ry="32"/>
+<text x="1730" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Precio unitario</text>
+<rect x="1995" y="725" width="250" height="70"/>
+<text x="2120" y="754" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">USUARIO</text>
+<text x="2120" y="780" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">auth.users</text>
+<path d="M2055 725L1940 625"/>
+<ellipse cx="1940" cy="625" rx="88" ry="32"/>
+<text x="1940" y="625" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M2120 725L2120 625"/>
+<ellipse cx="2120" cy="625" rx="88" ry="32"/>
+<text x="2120" y="625" text-anchor="middle" dominant-baseline="middle" font-size="20" >Correo</text>
+<path d="M2185 725L2300 625"/>
+<ellipse cx="2300" cy="625" rx="88" ry="32"/>
+<text x="2300" y="625" text-anchor="middle" dominant-baseline="middle" font-size="20" >Metadatos</text>
+<rect x="1995" y="1535" width="250" height="70"/>
+<text x="2120" y="1564" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="600">RESEÑA GOOGLE</text>
+<text x="2120" y="1590" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#64748b">google_reviews</text>
+<path d="M2055 1605L1940 1705"/>
+<ellipse cx="1940" cy="1705" rx="88" ry="32"/>
+<text x="1940" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" text-decoration="underline">id</text>
+<path d="M2120 1605L2120 1705"/>
+<ellipse cx="2120" cy="1705" rx="88" ry="32"/>
+<text x="2120" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Puntuación</text>
+<path d="M2185 1605L2300 1705"/>
+<ellipse cx="2300" cy="1705" rx="88" ry="32"/>
+<text x="2300" y="1705" text-anchor="middle" dominant-baseline="middle" font-size="20" >Comentario</text>
+<text x="2120" y="1480" text-anchor="middle" dominant-baseline="middle" font-size="21" fill="#64748b">Sin relación declarada</text>
+<text x="1250" y="1785" text-anchor="middle" dominant-baseline="middle" font-size="23" >Rectángulo: entidad · Rombo: relación · Óvalo: atributo · Subrayado: clave primaria · Línea azul discontinua: propuesta</text>
+<text x="1250" y="1827" text-anchor="middle" dominant-baseline="middle" font-size="21" >1 = uno · N = muchos · 1:N = uno a muchos. Esta notación expresa la cardinalidad máxima; no indica obligatoriedad.</text>
+<text x="1250" y="1870" text-anchor="middle" dominant-baseline="middle" font-size="19" >Obligatoria: toda cita pertenece a un paciente. Opcionales: usuario creador de pacientes y asociación de pagos con citas.</text>
+<text x="1000" y="285" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="725" y="490" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1275" y="490" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="725" y="875" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1275" y="875" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="450" y="1280" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1550" y="1280" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1000" y="1255" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1812.5" y="490" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1812.5" y="875" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="130" y="695" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="600">1:N</text>
+<text x="1250" y="1910" text-anchor="middle" dominant-baseline="middle" font-size="20">La autoría de sesiones, pagos y facturas también admite ausencia de usuario. Paciente en sesiones y pagos depende de las migraciones.</text>
+<text x="1250" y="1950" text-anchor="middle" dominant-baseline="middle" font-size="20">Se muestran atributos principales. La relación azul propone patients.created_by; no se han aplicado cambios a la base de datos.</text>
+<text x="1250" y="1990" text-anchor="middle" dominant-baseline="middle" font-size="20">No se incluyen relaciones 1:1 ni N:M porque no están declaradas en este modelo.</text>
+</svg>
